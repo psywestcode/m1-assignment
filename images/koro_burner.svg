@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800">
+  <rect width="100%" height="100%" fill="#FAF8F0"/>
+  <text x="40" y="60" font-size="42" fill="#000">Incense Burner (Kōro)</text>
+  <text x="40" y="110" font-size="26" fill="#444">Illustration</text>
+  <rect x="200" y="600" width="800" height="20" fill="#A08C78"/>
+  <line x1="300" y1="600" x2="900" y2="500" stroke="#5A3C2D" stroke-width="8"/>
+  <path d="M900 520 C860 460, 820 440, 840 380
+           M860 500 C820 440, 780 420, 800 360
+           M820 480 C780 420, 740 400, 760 340" stroke="#888" fill="none" stroke-width="3"/>
+</svg>
