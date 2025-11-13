@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Tell Us About Your Favorites — A Hint of Paradise</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html">Home</a> |
+      <a href="best.html">Best Websites to Purchase</a> |
+      <a href="favorites.html">Tell Us About Your Favorites</a>
+    </nav>
+    <h1>Tell Us About Your Favorites</h1>
+    <p>Share details about an incense you like so others can discover it.</p>
+  </header>
+
+  <main>
+    <form action="#" method="get">
+      <fieldset>
+        <legend>Basic Info</legend>
+
+        <label for="name">Incense Name *</label><br>
+        <input id="name" name="name" type="text" required><br><br>
+
+        <label for="maker">Manufacturer</label><br>
+        <input id="maker" name="manufacturer" type="text"><br><br>
+
+        <label for="price">Price per box in USD</label><br>
+        <input id="price" name="price" type="number" step="0.01" min="0"><br><br>
+
+        <label for="sticks"># of sticks per box</label><br>
+        <input id="sticks" name="sticks" type="number" min="1" step="1"><br><br>
+
+        <label for="type">Type</label><br>
+        <select id="type" name="type">
+          <option>Japanese</option>
+          <option>Indian</option>
+          <option>Tibetan</option>
+          <option>Bhutanese</option>
+          <option>Nepalese</option>
+          <option>Chinese</option>
+          <option>Others</option>
+        </select><br><br>
+
+        <label for="ingredients">Known ingredients</label><br>
+        <textarea id="ingredients" name="ingredients" rows="4" cols="50"></textarea><br><br>
+
+        <label for="buy">Where to buy (store or link)</label><br>
+        <input id="buy" name="where_to_buy" type="text"><br><br>
+
+        <button type="submit">Submit</button>
+      </fieldset>
+    </form>
+  </main>
+
+  <footer>
+    <p><a href="index.html">Home</a> · <a href="best.html">Best Websites to Purchase</a></p>
+  </footer>
+</body>
+</html>
