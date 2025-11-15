@@ -3,19 +3,27 @@
 <head>
   <meta charset="utf-8">
   <title>A Hint of Paradise</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A tiny guide to incense sticks—their history, forms, and variations.">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <nav>
-      <a href="index.html">Home</a> |
-      <a href="best.html">Best Websites to Purchase</a> |
-      <a href="favorites.html">Tell Us About Your Favorites</a>
-    </nav>
-    <h1>A Hint of Paradise</h1>
-    <p>A tiny guide to incense sticks—their history, forms, and variations.</p>
+  <a class="skip-link" href="#content">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container inner">
+      <nav class="site-nav" aria-label="Primary">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="best.html">Best Websites to Purchase</a>
+        <a href="favorites.html">Tell Us About Your Favorites</a>
+      </nav>
+
+      <h1 class="site-title">A Hint of Paradise</h1>
+      <p class="lead">A tiny guide to incense sticks—their history, forms, and variations.</p>
+    </div>
   </header>
 
-  <main>
+  <main id="content" class="container">
     <section>
       <h2>What are incense sticks?</h2>
       <p>Incense is aromatic material that releases fragrant smoke when burned. Stick incense may be <em>cored</em> (a bamboo rod coated in fragrant paste) or <em>coreless</em> (formed entirely from aromatic material). It is used in homes and temples for ceremony, meditation, and atmosphere.</p>
@@ -26,7 +34,7 @@
       <p>The word <em>incense</em> comes from Latin <em>incendere</em>—“to burn.” Incense traveled widely via trade routes linking Egypt, India, China, and beyond. Over centuries, local ingredients and techniques produced distinct traditions—Japanese <em>kōdō</em> (the “way of incense”), Indian <em>agarbatti</em> stick-making, Tibetan and Himalayan rope incense, and Chinese coils and joss sticks.</p>
 
       <figure>
-        <img src="images/incense_sticks.png" alt="Illustration of incense sticks">
+        <img src="images/incense_sticks.png" alt="Illustration of incense sticks laid next to a small holder">
         <figcaption>Incense sticks (illustration).</figcaption>
       </figure>
     </section>
@@ -34,60 +42,63 @@
     <section>
       <h2>Popular variations</h2>
       <ul>
-        <li><a href="https://en.wikipedia.org/wiki/Incense_in_Japan">Japanese incense</a> — see also <a href="https://en.wikipedia.org/wiki/K%C5%8Dd%C5%8D">kōdō</a>.</li>
-        <li><a href="https://en.wikipedia.org/wiki/Incense_in_India">Indian incense (Agarbatti)</a></li>
-        <li><a href="https://www.greattibettour.com/tibetan-culture/tibetan-incense.html">Tibetan incense</a></li>
-        <li><a href="https://www.bbc.com/travel/article/20210331-bhutans-350-year-old-recipe-for-wellbeing">Bhutanese incense</a></li>
-        <li><a href="https://en.wikipedia.org/wiki/Rope_incense">Nepalese incense</a></li>
-        <li><a href="https://en.wikipedia.org/wiki/Incense_in_China">Chinese incense</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Incense_in_Japan" target="_blank" rel="noopener">Japanese incense</a> — see also <a href="https://en.wikipedia.org/wiki/K%C5%8Dd%C5%8D" target="_blank" rel="noopener">kōdō</a>.</li>
+        <li><a href="https://en.wikipedia.org/wiki/Incense_in_India" target="_blank" rel="noopener">Indian incense (Agarbatti)</a></li>
+        <li><a href="https://www.greattibettour.com/tibetan-culture/tibetan-incense.html" target="_blank" rel="noopener">Tibetan incense</a></li>
+        <li><a href="https://www.bbc.com/travel/article/20210331-bhutans-350-year-old-recipe-for-wellbeing" target="_blank" rel="noopener">Bhutanese incense</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Rope_incense" target="_blank" rel="noopener">Nepalese incense</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Incense_in_China" target="_blank" rel="noopener">Chinese incense</a></li>
       </ul>
     </section>
 
     <section>
       <h2>Forms &amp; ingredients (at a glance)</h2>
-      <table border = 1>
-        <thead>
-          <tr>
-            <th>Type / Region</th>
-            <th>Typical form</th>
-            <th>Common ingredients</th>
-            <th>Notes</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Japanese</td>
-            <td>Coreless sticks; kneaded pellets</td>
-            <td>Sandalwood, aloeswood (agarwood), clove, cinnamon</td>
-            <td>The appreciation art is called <em>kōdō</em>.</td>
-          </tr>
-          <tr>
-            <td>Indian (Agarbatti)</td>
-            <td>Bamboo-cored sticks (masalā or dipped)</td>
-            <td>Wood powders, resins, floral oils</td>
-            <td>India is a leading producer and exporter.</td>
-          </tr>
-          <tr>
-            <td>Tibetan / Nepalese / Bhutanese</td>
-            <td>Traditional coreless sticks, Rope incense; stickless extruded</td>
-            <td>Herbal Himalayan blends</td>
-            <td>Often earthy; used in monastic settings.</td>
-          </tr>
-          <tr>
-            <td>Chinese</td>
-            <td>Bamboo-cored sticks; coils</td>
-            <td>Sandalwood, agarwood, herbs &amp; spices</td>
-            <td>Common in temples and ancestor rites.</td>
-          </tr>
-        </tbody>
-      </table>
+      <div class="table-wrap">
+        <table>
+          <caption>Common forms, ingredients, and notes by tradition</caption>
+          <thead>
+            <tr>
+              <th scope="col">Type / Region</th>
+              <th scope="col">Typical form</th>
+              <th scope="col">Common ingredients</th>
+              <th scope="col">Notes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Japanese</td>
+              <td>Coreless sticks; kneaded pellets</td>
+              <td>Sandalwood, aloeswood (agarwood), clove, cinnamon</td>
+              <td>The appreciation art is called <em>kōdō</em>.</td>
+            </tr>
+            <tr>
+              <td>Indian (Agarbatti)</td>
+              <td>Bamboo‑cored sticks (masalā or dipped)</td>
+              <td>Wood powders, resins, floral oils</td>
+              <td>India is a leading producer and exporter.</td>
+            </tr>
+            <tr>
+              <td>Tibetan / Nepalese / Bhutanese</td>
+              <td>Traditional coreless sticks; rope incense; stickless extruded</td>
+              <td>Herbal Himalayan blends</td>
+              <td>Often earthy; used in monastic settings.</td>
+            </tr>
+            <tr>
+              <td>Chinese</td>
+              <td>Bamboo‑cored sticks; coils</td>
+              <td>Sandalwood, agarwood, herbs &amp; spices</td>
+              <td>Common in temples and ancestor rites.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </section>
-
-    
   </main>
 
-  <footer>
-    <p><a href="favorites.html">Tell Us About Your Favorites</a> · <a href="best.html">Best Websites to Purchase</a></p>
+  <footer class="site-footer">
+    <div class="container inner">
+      <p><a href="favorites.html">Tell Us About Your Favorites</a> · <a href="best.html">Best Websites to Purchase</a></p>
+    </div>
   </footer>
 </body>
 </html>
