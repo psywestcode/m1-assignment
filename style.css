@@ -459,7 +459,7 @@ input[type="submit"]:focus-visible {
    ----------------------------------------------------------- */
 
 #info-box {
-  [cite_start]/* Requirement: Use visibility property [cite: 45] */
+  /* Requirement: Use visibility property */
   visibility: hidden; 
   
   /* Floating behavior */
