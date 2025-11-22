@@ -452,3 +452,52 @@ input[type="submit"]:focus-visible {
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; }
 }
+
+
+/* -----------------------------------------------------------
+   Info Box Styles
+   ----------------------------------------------------------- */
+
+#info-box {
+  [cite_start]/* Requirement: Use visibility property [cite: 45] */
+  visibility: hidden; 
+  
+  /* Floating behavior */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  
+  /* Styling */
+  width: 90%;
+  max-width: 500px;
+  background: var(--surface);
+  border: 2px solid var(--brand);
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0 0 0 100vmax rgba(47, 36, 21, 0.6); /* Dimmed background overlay */
+}
+
+/* Typography inside the box */
+#info-box h2 {
+  margin-top: 0;
+  color: var(--brand);
+}
+
+#info-box p {
+  font-size: var(--step-0);
+}
+
+#info-box a {
+  display: inline-block;
+  margin-top: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  color: var(--link);
+  border-bottom: 1px solid transparent;
+}
+
+#info-box a:hover {
+  border-bottom-color: var(--link);
+}
